@@ -9,7 +9,7 @@ declare(strict_types=1);
  * @license  https://github.com/marxphp/max/blob/master/LICENSE
  */
 
-namespace Max\Http\Server\Middlewares;
+namespace Max\Http\Server\Middleware;
 
 use Max\Http\Message\Response;
 use Psr\Http\Message\ResponseInterface;

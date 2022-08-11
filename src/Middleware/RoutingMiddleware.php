@@ -9,10 +9,10 @@ declare(strict_types=1);
  * @license  https://github.com/marxphp/max/blob/master/LICENSE
  */
 
-namespace Max\Http\Server\Middlewares;
+namespace Max\Http\Server\Middleware;
 
-use Max\Routing\Exceptions\MethodNotAllowedException;
-use Max\Routing\Exceptions\RouteNotFoundException;
+use Max\Routing\Exception\MethodNotAllowedException;
+use Max\Routing\Exception\RouteNotFoundException;
 use Max\Routing\Route;
 use Max\Routing\RouteCollector;
 use Psr\Http\Message\ResponseInterface;
